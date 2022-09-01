@@ -1,64 +1,73 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "imagebaseurl":"https://github.com/Emily-Landers",
+    "name": "Emily Landers",
+    "role": "Full-stack developer specializing in JavaScript and Python",
+    "linkedinId":"emily-landers-",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local dog rescue organization.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/emily-landers-/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/Emily-Landers",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
+        // {
+        //   "name":"skype",
+        //   "url":"http://twitter.com/rLanders46",
+        //   "className":"fa fa-twitter"
+        // }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a full-stack developer and Code Fellows graduate with a certificate in Python. I have experience in JavaScript, React.js, HTML5, and CSS. In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local rescue organization.",
+    "address":"Chesapeake, Virginia",
+    "website":"(804)547-9926",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Code Fellows",
+        "specialization":"Python, JavaScript",
+        "MonthOfPassing":"Jun",
+        "YearOfPassing":"2022"
+        // "Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Oak Ridge Military Academy",
+        "specialization":"High School Diploma",
+        "MonthOfPassing":"Jun",
+        "YearOfPassing":"2014",
+        // "Achievements":"Some Achievements"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Namco",
+        "specialization":"Arcade Manager and Technician",
+        "MonthOfLeaving":"Feb",
+        "YearOfLeaving":"2021",
+        "Achievements":"Brought my location to the number two position in sales for the United States"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"White Bear Yacht Club",
+        "specialization":"Bar Manager",
+        "MonthOfLeaving":"9",
+        "YearOfLeaving":"2020",
+        "Achievements":"Successfully organized a plan of action to lead my team through a majority of the pandemic."
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Some of the things I'm best at",
     "skills":[
+      {
+        "skillname":"JavaScript"
+      },
+      {
+        "skillname":"Python"
+      },
+      {
+        "skillname":"Reactjs"
+      },
       {
         "skillname":"HTML5"
       },
@@ -66,35 +75,39 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Git"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Pycasso",
+        "description":"An application created to demonstrate the potential for greatness when combining artificial intelligence and art. Pycasso can transform existing art into any style, identify ten different categories of objects in pictures, and produce original AI generated are from user prompts",
+        "imgurl":"images/portfolio/phone.jpg",
+        "proLink":"https://colab.research.google.com/drive/1i7TAGtPh8_8XpAB8kVf53qlAe7lk5NI5"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Do or Doom",
+        "description":"A tasking app that uniquely incentivizes users to complete tasks. Should users not complete their tasks in the time frame allotted, the person that they fear most will be notified and invited to the users home immediately. Happy Tasking!",
+        "imgurl":"",
+        "proLink":"ihttps://github.com/TheG0ATS/do-or-doom-fe"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Tech Perspective Survey",
+        "description":"A survey application currently still in use at Code Fellows used for compiling diversity data and using it as a teaching tool to bring to light internal biases and ways to be more conscious with regard to inclusivity and diversity.",  
+        "imgurl":"images/portfolio/project2.png",
+        "proLink":"https://github.com/Meltingpot-Data/techperspective-front"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Code Against Sanity",
+        "description":"Code Against Sanity (CAS) is our idea of what that popular card game: Cards Against Humanity™ would look like if it was made in the eyes of a software developer. More specifically, one going through a coding boot-camp.",
+        "imgurl":"images/portfolio/phone.jpg",
+        "proLink":"https://github.com/CodeAgainstSanity/CAS-backend"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Absolutely wonderful to work with. Great communication, very hard working, strives to improve whenever possible, and very knowledgeable. Anyone would be lucky to have her as apart of their team both as a co-worker or company asset.",
+        "name":"Jordan Fleming, Software Developer"
       },
       {
         "description":"This is a sample testimonial",
