@@ -102,8 +102,8 @@ let resumeData = {
         "name":"Jordan Fleming, Software Developer"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"This is a placeholder testimonial",
+        "name":"Just think- it could be your testimonial that shows up here. Go on, email me one (my email is just a bit further down)"
       }
     ]
   }
