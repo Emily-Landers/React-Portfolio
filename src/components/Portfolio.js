@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
     return (
       <section id="portfolio">
       <div className="row">
@@ -10,19 +11,18 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
+              let handleClick = () => {
+                window.open(item.proLink)
+              };
+              console.log(item.proLink)
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                      {/* <img src={`${item.imgurl}`} className="item-img"/> */}
-                      {/* <div className="overlay">
-                        <div className="portfolio-item-meta"> */}
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <button onClick={(item.proLink)}>Take Me to {item.name}</button>
-                        {/* </div>
-                      </div> */}
-                    </a>
+                          </a>
+                          <button onClick={handleClick}>Take Me to {item.name}</button>
                   </div>
                 </div>
               )

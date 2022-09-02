@@ -2,8 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://github.com/Emily-Landers",
     "name": "Emily Landers",
     "role": "Full-stack developer specializing in JavaScript and Python",
-    "linkedinId":"emily-landers-",
-    "skypeid": "Your skypeid",
+    "email":" emily.j.landers@gmail.com",
     "roleDescription": " In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local dog rescue organization.",
     "socialLinks":[
         {
@@ -15,30 +14,23 @@ let resumeData = {
           "name":"github",
           "url":"https://github.com/Emily-Landers",
           "className":"fa fa-github"
-        },
-        // {
-        //   "name":"skype",
-        //   "url":"http://twitter.com/rLanders46",
-        //   "className":"fa fa-twitter"
-        // }
+        }
       ],
     "aboutme":"I am a full-stack developer and Code Fellows graduate with a certificate in Python. I have experience in JavaScript, React.js, HTML5, and CSS. In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local rescue organization.",
     "address":"Chesapeake, Virginia",
-    "website":"(804)547-9926",
+    "website":"emily.j.landers@gmail.com",
     "education":[
       {
         "UniversityName":"Code Fellows",
         "specialization":"Python, JavaScript",
         "MonthOfPassing":"Jun",
         "YearOfPassing":"2022"
-        // "Achievements":"Some Achievements"
       },
       {
         "UniversityName":"Oak Ridge Military Academy",
         "specialization":"High School Diploma",
         "MonthOfPassing":"Jun",
         "YearOfPassing":"2014",
-        // "Achievements":"Some Achievements"
       }
     ],
     "work":[
@@ -89,7 +81,7 @@ let resumeData = {
         "name":"Do or Doom",
         "description":"A tasking app that uniquely incentivizes users to complete tasks. Should users not complete their tasks in the time frame allotted, the person that they fear most will be notified and invited to the users home immediately. Happy Tasking!",
         "imgurl":"",
-        "proLink":"ihttps://github.com/TheG0ATS/do-or-doom-fe"
+        "proLink":"https://github.com/TheG0ATS/do-or-doom-fe"
       },
       {
         "name":"Tech Perspective Survey",
