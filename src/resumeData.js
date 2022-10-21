@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/Emily-Landers",
     "name": "Emily Landers",
-    "role": "Full-stack developer specializing in JavaScript and Python",
+    "role": "Full-stack developer specializing in Python and full-stack JavaScript",
     "email":" emily.j.landers@gmail.com",
     "roleDescription": " In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local dog rescue organization.",
     "socialLinks":[
@@ -79,7 +79,7 @@ let resumeData = {
       },
       {
         "name":"Do or Doom",
-        "description":"A tasking app that uniquely incentivizes users to complete tasks. Should users not complete their tasks in the time frame allotted, the person that they fear most will be notified and invited to the users home immediately. Happy Tasking!",
+        "description":"A tasking app that uniquely encourages users to complete tasks. Should users not complete their tasks in the time frame allotted, the person that they fear most will be notified and invited to the users home immediately. Happy Tasking!",
         "imgurl":"",
         "proLink":"https://github.com/TheG0ATS/do-or-doom-fe"
       },
