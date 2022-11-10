@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/Emily-Landers",
     "name": "Emily Landers",
-    "role": "Full-stack developer specializing in Python and full-stack JavaScript",
+    "role": "Software developer specializing in Python and full-stack JavaScript",
     "email":" emily.j.landers@gmail.com",
     "roleDescription": " In my free time I enjoy mastering new video games, caring for my plants, and volunteering with a local dog rescue organization.",
     "socialLinks":[
